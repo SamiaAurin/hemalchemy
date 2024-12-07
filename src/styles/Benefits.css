@@ -1,0 +1,64 @@
+/* Benefits Section */
+.benefits-section {
+    padding: 3rem 0;
+    background-color: #ebf8ff; /* Tailwind's blue-50 */
+    margin: 100px auto;
+  }
+  
+  .benefits-section .text-center h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #317773;
+    margin-bottom: 54px;
+    text-align: center;
+  }
+  
+  /* Benefits Grid */
+  .benefits-section .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    padding: 0 3rem;
+  }
+  
+  .benefits-section .benefit-card {
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Tailwind's shadow-md */
+    text-align: center;
+  }
+  
+  /* Background colors for each card */
+  .benefits-section .benefit-card.bg-purple-100 {
+    background-color: #faf5ff; /* Tailwind's purple-100 */
+  }
+  
+  .benefits-section .benefit-card.bg-orange-100 {
+    background-color: #ffedd5; /* Tailwind's orange-100 */
+  }
+  
+  .benefits-section .benefit-card.bg-green-100 {
+    background-color: #d1fae5; /* Tailwind's green-100 */
+  }
+  
+  /* Icon Styling */
+  .benefits-section .benefit-card .icon {
+    font-size: 3rem; /* Tailwind's text-5xl */
+    margin-bottom: 1rem;
+  }
+  
+  /* Title */
+  .benefits-section .benefit-card h2 {
+    font-size: 1.25rem; /* Tailwind's text-xl */
+    font-weight: 600;
+    color: #1f2937; /* Tailwind's gray-800 */
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Description */
+  .benefits-section .benefit-card p {
+    color: #4b5563; /* Tailwind's gray-600 */
+    font-size: 1rem;
+  }
+  

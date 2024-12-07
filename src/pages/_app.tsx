@@ -7,9 +7,13 @@ import PopularProducts from '../components/PopularProducts';
 import SpecialPackage from '../components/SpecialPackage';
 import Benefits from '../components/Benefits';
 import Footer from '../components/Footer';
-
+{/* imports of all components CSS */}
 import '../styles/globals.css';
-
+import '../styles/Hero.css';
+import '../styles/Explore.css';
+import '../styles/PopularProducts.css';
+import '../styles/SpecialPackage.css'
+import '../styles/Benefits.css';
 
 
 function MyApp({ Component, pageProps }: any) {
